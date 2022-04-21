@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px) {
+  .picture img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .menu-lateral {
+    width: 50%;
+  }
+
+  .picture-container {
+    width: 50%;
+  }
+
+  .picture-logo {
+    width: 5px;
+    height: 5px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .como-ajudar-tittle,
+  ul {
+    font-size: 10px;
+  }
+}

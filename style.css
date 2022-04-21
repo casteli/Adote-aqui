@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 130px;
+  background-color: #caab2d;
+  color: rgb(0, 0, 0);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+.caogato img {
+  width: 150px;
+}
+
+.menu-header ul {
+  display: flex;
+}
+
+.menu-header ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.menu-header ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-header ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*corpo*/
+.title {
+  padding: 50px;
+  text-align: center;
+  background-color: #a28716;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+.corpo {
+  display: flex;
+}
+
+.picture-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  background-color: #a28716;
+}
+
+.menu-lateral {
+  width: 15%;
+}
+
+.picture {
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.picture img {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.6s;
+}
+
+.picture img:hover {
+  transform: scale(1.2);
+}
+
+.menu-lateral {
+  display: flex;
+  background-color: #a28716;
+  border: 1px solid #caab2d;
+}
+.menu-lateral ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.menu-lateral ul li {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
+.menu-lateral ul li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu-lateral ul li a {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.como-ajudar-tittle {
+  text-decoration: underline;
+}
+
+.como-ajudar-main {
+  padding: 50px;
+  background-color: #a28716;
+}
+
+.como-ajudar-main ul li {
+  padding: 5px;
+}
+
+.como-ajudar-main ul {
+  padding: 20px;
+}
+
+.picture-logo img {
+  width: 60px;
+  height: 45px;
+}
+
+.picture-logo {
+  margin: 30px;
+  box-sizing: border-box;
+}
+
+span {
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #caab2d;
+  color: rgb(0, 0, 0);
+}
